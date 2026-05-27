@@ -43,7 +43,7 @@
 
                             
 #     # print("Skey:", skey)
-#     # address = Address.from_primitive("addr_test1qqv6lvmvkrjjvs2en5ut4c323xwsma0aymmtyystdz0pxf4najsqxcfpsgrkfdnpcavr9rafayfmh75ju2mdq7fk53pq8l3qc8") 
+#     # address = Address.from_primitive("CHAVE") 
     
 #     # # print("Address:", address) # endereço
 #     # # raw = bytes(address).hex() # hexadecimal
@@ -93,7 +93,7 @@ def load_blockfrost_context() -> BlockFrostChainContext:
 
 def main():
     
-    addr = Address.from_primitive("addr_test1qrk75ydhk0xwy840xu2r4vvhr6q2pxmff5a7zgv5vq8d2acpa84czda7nn596mxcy0998hahhqmt7gjhw5rmpd06da2s7n6fge")
+    addr = Address.from_primitive("CHAVE")
     # raw = bytes(addr)
 
     # print(raw.hex())
