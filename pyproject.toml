@@ -1,0 +1,10 @@
+[project]
+name = "aula1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cbor2<6",
+    "pycardano>=0.19.2",
+]
